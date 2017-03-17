@@ -1,0 +1,11 @@
+git:
+  depth: 5
+sudo: required
+language: minimal
+services:
+  - docker
+install: true
+script:
+  - ./build.sh
+after_success:
+  - ./push.sh
