@@ -7,5 +7,3 @@ services:
 install: true
 script:
   - ./build.sh
-after_success:
-  - ./push.sh
